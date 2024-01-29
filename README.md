@@ -4,6 +4,7 @@ class:
  - invert
 headingDivider: 2 
 paginate: true
+marp: true
 -->
 
 <!--
