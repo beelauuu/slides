@@ -1,0 +1,92 @@
+---
+marp: true
+theme: default
+class: invert
+style: |
+    section {
+        font-size: 180%;
+    }
+    footer {
+        font-size: .6em;
+    }
+paginate: true
+---
+<!-- 
+_paginate: false
+_class: invert
+-->
+
+# <!--fit--> Discussion 05
+<!-- 
+_footer: "Credits to Adit Bala for his Marp template"
+-->
+
+### 
+
+Brian Lau
+`blau1@umd.edu`
+
+---
+## Agenda
+<!-- 
+_footer: "Slides available at [`beelau.vercel.app`](https://beelau.vercel.app)"
+-->
+1. Project 2 Questions
+    - Make sure you're submitting with the submit server plugin!
+2. Programs! (again)
+    - We'll write these ones together (practicing while/do-while loops)
+3. Office Hours / Lecture Review
+---
+## Announcements :mega:
+- `Project 2`
+    - Due `Thurs, Feb 15, 11:30 pm` 
+    - Note: it's 11:30 not 11:59 
+- Remind Brian of your name
+
+---
+
+# Loop Programs
+- We're going to be doing programs now!
+    - Featuring loops this time (while and do-while)
+    - We'll write it together but you're going to help 
+
+---
+# 1. Evens
+- Write a program that reads two integer values and prints the even values in the specified range. Use the `%` operator to determine whether a value is even.
+    - Assume the first number they pass in is less than the second number
+
+---
+
+# 2. Odds
+- Write a program that computes the sum of odd values between two integer values, a and b. 
+    - If a > b, no processing will occur, and the program will print the message "Invalid Range."
+
+---
+# 3. Password
+- Write a program that asks a user for an expected password ("terps") and keeps asking the user for the password until "terps" is provided. 
+    - The program will print the message "Invalid Password" whenever an invalid password is provided.
+    - The program will print the message "Login successful" when the expected password is provided
+- Let's use a do-while for this one :)
+---
+# 4. Rewrite me
+- Rewrite the following program using a while loop.
+
+        int age;
+        Scanner scanner = new Scanner(System.in);
+
+        do {
+            System.out.print("Enter age: ");
+
+            age = scanner.nextInt();
+            if (age < 0) {
+                System.out.println("Wrong value.");
+            }
+        } while (age < 0);
+
+        System.out.println("Correct value provided. " + age);
+        scanner.close(); 
+---
+
+# Thank you! Any questions?
+
+### Remember to give feedback if you have any!
